@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://YOUR-RENDER-BACKEND-URL.onrender.com/api/:path*"
+    },
+    {
+      "source": "/manual_2544.pdf",
+      "destination": "https://YOUR-RENDER-BACKEND-URL.onrender.com/manual_2544.pdf"
+    },
+    {
+      "source": "/school_logo.png",
+      "destination": "https://YOUR-RENDER-BACKEND-URL.onrender.com/school_logo.png"
+    },
+    {
+      "source": "/:(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
